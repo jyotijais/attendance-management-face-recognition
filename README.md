@@ -124,10 +124,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Contributors and testers
 
 ## Author
-Jyoti Jais
-GitHub: @jyotijais
 
-Project Link: [https://github.com/YOUR_USERNAME/attendance-management-face-recognition](https://github.com/YOUR_USERNAME/attendance-management-face-recognition)
+Jyoti Jaiswal
+
+Github : jyotijais
+
+Project Link: [https://github.com/jyotijais204@gmail.com/attendance-management-face-recognition](https://github.com/jyotijais204@gmail.com/attendance-management-face-recognition)
 
 ---
 
