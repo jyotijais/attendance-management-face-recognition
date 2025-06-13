@@ -123,7 +123,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Python community for excellent documentation
 - Contributors and testers
 
-👤 Author
+## Author
 Jyoti Jais
 GitHub: @jyotijais
 
