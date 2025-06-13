@@ -113,9 +113,6 @@ attendance-management-face-recognition/
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
@@ -125,9 +122,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-Your Name - your.email@example.com
+Your Name - jyotijais204@gmail.com
 
-Project Link: [https://github.com/YOUR_USERNAME/attendance-management-face-recognition](https://github.com/YOUR_USERNAME/attendance-management-face-recognition)
+Project Link: [https://github.com/jyotijais204/attendance-management-face-recognition](https://github.com/jyotijais204/attendance-management-face-recognition)
 
 ---
 

@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Face Recognition Attendance System</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        header {
+            text-align: center;
+            color: white;
+            margin-bottom: 3rem;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        .content {
+            background: white;
+            border-radius: 15px;
+            padding: 2rem;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+            margin-bottom: 2rem;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+
+        .feature-card {
+            background: #f8f9fa;
+            padding: 1.5rem;
+            border-radius: 10px;
+            border-left: 4px solid #667eea;
+            transition: transform 0.3s ease;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .feature-icon {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .buttons {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            margin: 2rem 0;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            padding: 12px 30px;
+            border: none;
+            border-radius: 25px;
+            font-size: 1rem;
+            font-weight: bold;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            display: inline-block;
+        }
+
+        .btn-primary {
+            background: #667eea;
+            color: white;
+        }
+
+        .btn-secondary {
+            background: #764ba2;
+            color: white;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+
+        .tech-stack {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin: 2rem 0;
+            flex-wrap: wrap;
+        }
+
+        .tech-badge {
+            background: #e9ecef;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: bold;
+            color: #495057;
+        }
+
+        .demo-section {
+            text-align: center;
+            margin: 3rem 0;
+        }
+
+        .demo-placeholder {
+            background: #f8f9fa;
+            border: 2px dashed #dee2e6;
+            border-radius: 10px;
+            padding: 3rem;
+            margin: 1rem 0;
+        }
+
+        footer {
+            text-align: center;
+            color: white;
+            margin-top: 3rem;
+            opacity: 0.8;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎯 Face Recognition Attendance System</h1>
+            <p class="subtitle">Automated attendance management using AI-powered face recognition</p>
+        </header>
+
+        <div class="content">
+            <h2>🚀 Project Overview</h2>
+            <p>This is an intelligent attendance management system that uses computer vision and machine learning to automatically recognize faces and mark attendance. Built with Python, OpenCV, and modern GUI frameworks.</p>
+
+            <div class="features">
+                <div class="feature-card">
+                    <div class="feature-icon">📸</div>
+                    <h3>Face Registration</h3>
+                    <p>Easy registration of new students/employees with multiple face samples for better accuracy.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🤖</div>
+                    <h3>AI Recognition</h3>
+                    <p>Advanced LBPH (Local Binary Pattern Histogram) algorithm for reliable face recognition.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Real-time Detection</h3>
+                    <p>Live camera feed with instant face detection and attendance marking.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3>Data Management</h3>
+                    <p>Comprehensive attendance records with export capabilities and reporting features.</p>
+                </div>
+            </div>
+
+            <div class="buttons">
+                <a href="https://github.com/jyotijais/attendance-management-face-recognition" class="btn btn-primary">View on GitHub</a>
+                <a href="https://github.com/jyotijais/attendance-management-face-recognition/archive/refs/heads/main.zip" class="btn btn-secondary">Download Project</a>
+            </div>
+
+            <h3>🛠️ Technology Stack</h3>
+            <div class="tech-stack">
+                <span class="tech-badge">Python</span>
+                <span class="tech-badge">OpenCV</span>
+                <span class="tech-badge">Tkinter</span>
+                <span class="tech-badge">NumPy</span>
+                <span class="tech-badge">Machine Learning</span>
+                <span class="tech-badge">Computer Vision</span>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="demo-section">
+                <h2>📺 Demo Preview</h2>
+                <div class="demo-placeholder">
+                    <h3>🎬 Demo Video Coming Soon</h3>
+                    <p>A comprehensive demonstration of the face recognition attendance system in action.</p>
+                    <p><em>Features: Registration → Training → Recognition → Attendance Marking</em></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="content">
+            <h2>📋 Quick Start Guide</h2>
+            <ol style="padding-left: 2rem;">
+                <li><strong>Clone the repository:</strong><br>
+                    <code style="background: #f8f9fa; padding: 0.2rem 0.5rem; border-radius: 3px;">git clone https://github.com/jyotijais/attendance-management-face-recognition.git</code>
+                </li>
+                <li><strong>Install dependencies:</strong><br>
+                    <code style="background: #f8f9fa; padding: 0.2rem 0.5rem; border-radius: 3px;">pip install opencv-contrib-python numpy pillow</code>
+                </li>
+                <li><strong>Run the application:</strong><br>
+                    <code style="background: #f8f9fa; padding: 0.2rem 0.5rem; border-radius: 3px;">python attendance.py</code>
+                </li>
+            </ol>
+        </div>
+
+        <div class="content">
+            <h2>🎯 Key Features</h2>
+            <ul style="padding-left: 2rem;">
+                <li>✅ User-friendly GUI interface</li>
+                <li>✅ Multiple face registration per person</li>
+                <li>✅ Real-time face detection and recognition</li>
+                <li>✅ Automatic attendance logging</li>
+                <li>✅ Training module for model optimization</li>
+                <li>✅ Export attendance data to CSV</li>
+                <li>✅ Cross-platform compatibility</li>
+            </ul>
+        </div>
+
+        <footer>
+            <p>Created with ❤️ by <strong>Jyoti Jais</strong> | <a href="https://github.com/jyotijais" style="color: white;">GitHub Profile</a></p>
+            <p>⭐ Star the repository if you find it useful!</p>
+        </footer>
+    </div>
+</body>
+</html>
