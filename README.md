@@ -33,7 +33,7 @@ Before running this project, make sure you have:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/YOUR_USERNAME/attendance-management-face-recognition.git
+   git clone https://github.com/jyotijais/attendance-management-face-recognition.git
    cd attendance-management-face-recognition
    ```
 
@@ -113,6 +113,9 @@ attendance-management-face-recognition/
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
@@ -120,11 +123,13 @@ attendance-management-face-recognition/
 - Python community for excellent documentation
 - Contributors and testers
 
-## Contact
+## Author
 
-Your Name - jyotijais204@gmail.com
+Jyoti Jaiswal
 
-Project Link: [https://github.com/jyotijais204/attendance-management-face-recognition](https://github.com/jyotijais204/attendance-management-face-recognition)
+Your Name - your.email@example.com
+
+Project Link: [https://github.com/YOUR_USERNAME/attendance-management-face-recognition](https://github.com/YOUR_USERNAME/attendance-management-face-recognition)
 
 ---
 
