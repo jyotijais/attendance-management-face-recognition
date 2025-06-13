@@ -33,7 +33,7 @@ Before running this project, make sure you have:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/YOUR_USERNAME/attendance-management-face-recognition.git
+   git clone https://github.com/jyotijais/attendance-management-face-recognition.git
    cd attendance-management-face-recognition
    ```
 
@@ -112,10 +112,6 @@ attendance-management-face-recognition/
 3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
